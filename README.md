@@ -1,2 +1,2 @@
-# FBC-Brooklyn-MS
+# FBC-Brooklyn-MS.github.io
 Website
