@@ -1,0 +1,291 @@
+/*Created By Anthony Bullock AT FBCB*/
+
+/* Style for body specifies a background color */
+body {
+	background-color: #ffffff;
+}
+/* Styles for Mobile Layout */
+img{
+	max-width:100%
+}
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+
+header img{
+	width: em;
+	float: center;
+	margin:auto;
+	padding:auto;
+}
+
+ 
+nav img{
+	width:1.5em;
+}
+footer img { 
+	Width:3em;
+	Display: incline;
+	float: left;
+	list-style: none;
+	
+
+}
+
+footer p{
+	float: middle;
+	Text-align: middle;
+	Margin: 5px;
+	Padding: 4px;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+b {
+  font-weight: bold;
+}
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: right;
+	height: 4em;
+}
+/* Style specifies padding and margins for the unordered list*/
+nav li{
+	Padding:0;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+/* Style for nav li specifies the background color, rounded corners, remove bullet style, and applies margins and padding for list items within the navigation*/
+nav li {
+	background-color: ;
+	list-style-type:none;
+	margin:0.4em;
+	padding:0.5em;
+	
+}
+/* Style changes navigation link color to white and removes the underline*/
+nav li a{
+	color:#FFFFFF;
+	text-decoration:none;
+	
+}
+}
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: ;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+article p{
+	font-size:1.5em;
+	background-color:;
+	color:;
+}
+ h2{
+	font-size:4em;
+	color: #009933;
+	
+
+}
+/* This is the Starting Header*/
+article h4{
+	font-size:3em;
+	text-align: left;
+	color:#009933;
+}
+/*End*/
+
+Section{
+	padding:1em;
+}
+article{
+	margin:1em;
+	padding:1em;
+	background:;
+}
+/*Style For Volunteer Table*/
+table{
+	border: .2em solid black;
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	
+}
+th, td{
+	border:.1em solid black;
+	background:#009933;
+	padding:1em;
+	font-size:1.5em;
+	color:
+}
+
+table p{
+	color: ;
+	font-size:1em;
+	
+	text-decoration:underline;
+	Text-decoration:bold;
+	
+}
+Caption {
+	Font-size:2.3em;
+	color: #009933;
+}
+	
+input, select, textarea{
+		display:;
+		margin-bottom:.1em;
+}
+label {
+	display:block;
+}
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .90em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+	
+/*Style displays the mobile class*/
+.mobile {
+		display: inline;
+}
+.desktop{
+		display:none;
+}
+/*Facebook Icon*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 100px;
+  height: auto;
+  Margin: ;
+    z-index: 9999;
+	
+}
+
+/*Tablet veiwport*/
+@media only screen and (min-width:481px){
+.mobile{
+		display:none;
+}
+.desktop{
+		display:inline;
+}
+img{
+	width:80%;
+}
+
+
+}
+main{
+	clear:left;
+}
+}
+Label{
+	float:left;
+	padding-right:0.5;
+	text-align:right;
+	width:8em;
+
+}
+
+footer{
+	
+	Background-color: #333;
+	color:white;
+	display: ;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: .1em;
+	padding: 1em;
+	Padding-bottom:0.5;
+	border-radius: 1em;
+	text-align:center;
+	
+
+
+}
+
+/*desktop viewport*/
+@media only screen and (min-width:769px){
+img{
+	width: 60%;
+	
+}
+#container{
+	width:80%;
+}
+nav ul{
+	margin:0;
+	padding-left:0.5%;
+	margin-right:0.5%;
+}
+nav li{
+	border-radius:0;
+	margin-left:0;
+	margin-left:0;
+	padding:0;
+	width:%;
+	white-space:nowrap;
+}
+nav li a{
+	display:incline-block;
+	padding:0.7em;
+	font-size:em;
+}
+main{
+	border:none;
+	border-radius:1em;
+	box-shadow:1em 1em 1em #331400;
+	margin-top:1em;
+	overflow:auto;
+}
+section article{
+	width:20%;
+	float:left;
+	height:22em;
+}
+img {
+  vertical-align: middle;
+}
+footer{
+	clear:both;
+	Background-color: #333;
+	color:white;
+	display: ;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: .1em;
+	padding: 1em;
+	Padding-bottom:0.5;
+	border-radius: 1em;
+	text-align:center;
+	
+
+
+}
